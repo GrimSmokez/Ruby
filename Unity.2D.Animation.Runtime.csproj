@@ -64,6 +64,7 @@
      <Compile Include="Packages\com.unity.2d.animation\Runtime\SpriteSkinEntity.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Runtime\SpriteLib\SpriteLibraryAsset.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Runtime\PrepareSkinningSystem.cs" />
+     <Compile Include="Packages\com.unity.2d.animation\Runtime\BufferManager.cs" />
      <Compile Include="Packages\com.unity.2d.animation\Runtime\SpriteSkinComposite.cs" />
      <None Include="Packages\com.unity.2d.animation\Runtime\Unity.2D.Animation.Runtime.asmdef" />
  <Reference Include="UnityEngine">

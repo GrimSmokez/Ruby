@@ -1,0 +1,357 @@
+Unity Editor version:    2020.3.19f1 (68f137dc9bbe)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game12/Desktop/Ruby
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50577
+Successfully changed project path to: /Users/game12/Desktop/Ruby
+/Users/game12/Desktop/Ruby
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path /Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game12/Desktop/Ruby/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-27 14:36:22.266 Unity[3287:86524] iMac preferred device: AMD Radeon Pro 5300 (high power)
+2022-05-27 14:36:22.266 Unity[3287:86524] Metal devices available: 1
+2022-05-27 14:36:22.266 Unity[3287:86524] 0: AMD Radeon Pro 5300 (high power)
+2022-05-27 14:36:22.268 Unity[3287:86524] Using device AMD Radeon Pro 5300 (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300
+Initialize mono
+Mono path[0] = '/Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56287
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000481 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (469ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1094ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.003528 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.017975 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Users/game12/Desktop/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/game12/Desktop/Ruby/Ruby.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/game12/Desktop/Ruby/Ruby.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{57755A65-4C8D-CFCE-E029-FB4C72E0EAA6}"
+[C# Project]   005: EndProject
+[C# Project]   006: Global
+[C# Project]   007: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+[C# Project]   008: 		Debug|Any CPU = Debug|Any CPU
+
+[C# Project] New /Users/game12/Desktop/Ruby/Ruby.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{6D7501A6-EB17-7D09-1010-8CC5DBC6EAC3}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Tests", "Unity.2D.PixelPerfect.Tests.csproj", "{610148EE-44A7-1CCF-9012-C37A6439CA3E}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{8C34C817-A66B-6F94-8727-90CA86D3681E}"
+[C# Project] Writing /Users/game12/Desktop/Ruby/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 683
+
+[C# Project] Current /Users/game12/Desktop/Ruby/Assembly-CSharp.csproj:
+[C# Project]   683:  <Reference Include="Unity.2D.Animation.Editor">
+[C# Project]   684:  <HintPath>/Users/game12/Desktop/Ruby/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+[C# Project]   685:  </Reference>
+[C# Project]   686:  <Reference Include="Unity.InternalAPIEngineBridge.001">
+[C# Project]   687:  <HintPath>/Users/game12/Desktop/Ruby/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+
+[C# Project] New /Users/game12/Desktop/Ruby/Assembly-CSharp.csproj:
+[C# Project]   683:   </ItemGroup>
+[C# Project]   684:   <ItemGroup>
+[C# Project]   685:     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+[C# Project]   686:       <Project>{B06935DE-DDE4-2640-5D80-A99A4CE8B472}</Project>
+[C# Project]   687:       <Name>Unity.2D.Animation.Editor</Name>
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2295 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.4 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 144 unused Assets to reduce memory usage. Loaded Objects now: 2776.
+Total: 3.967239 ms (FindLiveObjects: 0.232031 ms CreateObjectMapping: 0.085494 ms MarkObjects: 3.171119 ms  DeleteObjects: 0.477758 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Script/NonPlayerCharacter.cs
+  artifactKey: Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NonPlayerCharacter.cs using Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7d47083e7e6174e9f54a750e9590c2') in 0.304004 seconds 
+  Import took 0.307519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 408.212561 seconds.
+  path: Assets/Script/NonPlayerCharacter.cs
+  artifactKey: Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NonPlayerCharacter.cs using Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afee318f3fcfa594f868975c27712ad2') in 0.003501 seconds 
+  Import took 0.007343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.583432 seconds.
+  path: Assets/Script/NonPlayerCharacter.cs
+  artifactKey: Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NonPlayerCharacter.cs using Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3661fbf6e8efb529d4ad5107085cff') in 0.005490 seconds 
+  Import took 0.009466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.530550 seconds.
+  path: Assets/Script/NonPlayerCharacter.cs
+  artifactKey: Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NonPlayerCharacter.cs using Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93f13ae58e98a0a2727213c3d223dd1') in 0.003683 seconds 
+  Import took 0.007457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.673831 seconds.
+  path: Assets/Script/NonPlayerCharacter.cs
+  artifactKey: Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NonPlayerCharacter.cs using Guid(8f651e914d7fe4fbe886479b9e66bbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c3a786d234fc2efc29e3a05d90fb2e') in 0.003650 seconds 
+  Import took 0.007705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.585573 seconds.
+  path: Assets/Script/RubyController.cs
+  artifactKey: Guid(72fce8d65ae7c484f961d45f8bd86382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/RubyController.cs using Guid(72fce8d65ae7c484f961d45f8bd86382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461d57828e6910824b73ee76616ee7f0') in 0.003837 seconds 
+  Import took 0.007829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.872071 seconds.
+  path: Assets/Script
+  artifactKey: Guid(f4b45b6475a1c47c3bb8590b46f940cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(f4b45b6475a1c47c3bb8590b46f940cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72269fa33f03459336decc5f52a4c63b') in 0.001485 seconds 
+  Import took 0.005372 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1074ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (886ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.0 MB.
+System memory in use after: 206.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2780.
+Total: 3.042369 ms (FindLiveObjects: 0.404513 ms CreateObjectMapping: 0.113347 ms MarkObjects: 2.510384 ms  DeleteObjects: 0.013432 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.949974 seconds.
+  path: Assets/Prefabs/JambiSheet_0.prefab
+  artifactKey: Guid(9f2f6fe8803de4e00bfdde60ddf69040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JambiSheet_0.prefab using Guid(9f2f6fe8803de4e00bfdde60ddf69040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37103b74a1595f45f057ea75d552a9b') in 1.048812 seconds 
+  Import took 1.054231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 211.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2789.
+Total: 3.827325 ms (FindLiveObjects: 0.459386 ms CreateObjectMapping: 0.200969 ms MarkObjects: 3.141748 ms  DeleteObjects: 0.024293 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

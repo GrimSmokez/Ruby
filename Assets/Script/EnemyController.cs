@@ -14,6 +14,10 @@ public class EnemyController : MonoBehaviour
 
     Animator animator;
 
+    bool broken = true;
+
+    public ParticleSystem smokeEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,12 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(!broken)
+        {
+            return;
+        } 
+        
         timer -= Time.deltaTime;
 
         if (timer < 0)
@@ -55,7 +65,7 @@ public class EnemyController : MonoBehaviour
         rigidbody2D.MovePosition(position);
     }
 
-    void OnCollisionEter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         RubyController player =
         other.gameObject.GetComponent<RubyController >();
@@ -64,9 +74,18 @@ public class EnemyController : MonoBehaviour
         {
             player.ChangeHealth(-1);
         }
+
+
+    }
+
+    public void Fix()
+    {
+        broken = false;
+        rigidbody2D.simulated = false; 
+        animator.SetTrigger("Fixed");
+        smokeEffect.Stop();
     }
 }
-    
 
     
 
