@@ -23,13 +23,15 @@ public class RubyController : MonoBehaviour
 
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
+
+    AudioSource audioSource;
     
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
-
         currentHealth = maxHealth;
     }
 
@@ -110,6 +112,11 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 1000);
 
         animator.SetTrigger("Launch");
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
 }
